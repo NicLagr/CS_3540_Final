@@ -136,10 +136,9 @@ MonoBehaviour:
   attackDamage: 1
   attackLayer:
     serializedVersion: 2
-    m_Bits: 4294967295
-  hitEffect: {fileID: 0}
+    m_Bits: 64
   swordSwing: {fileID: 8300000, guid: 175253fd6b36f3e439e6f2bf0b3ed0ff, type: 3}
-  hitSound: {fileID: 8300000, guid: a427536ed8f2334409ab2e9229bc0fa6, type: 3}
+  hitSound: {fileID: 8300000, guid: 8ea45b14d23980d408265dc9658c8a6c, type: 3}
 --- !u!143 &1160135810695906401
 CharacterController:
   m_ObjectHideFlags: 0
@@ -622,7 +621,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8e88c98d2d626cc4ea44d08262751840,
         type: 3}
       propertyPath: m_TagString
-      value: Sword
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

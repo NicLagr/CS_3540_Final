@@ -158,15 +158,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400062, guid: f227b5017a7c0184a96c2c26f1e4408d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.241837
+      value: 0.20127964
       objectReference: {fileID: 0}
     - target: {fileID: 400062, guid: f227b5017a7c0184a96c2c26f1e4408d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.6339
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 400062, guid: f227b5017a7c0184a96c2c26f1e4408d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -82.07107
+      value: -99.547226
       objectReference: {fileID: 0}
     - target: {fileID: 400062, guid: f227b5017a7c0184a96c2c26f1e4408d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -282,15 +282,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 3527613564933061710}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc1a16fad4dc57344984a708df8877bb, type: 3}
+  m_Script: {fileID: 11500000, guid: 560f3221220fcc44e9da80a31f8b28ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detectionRange: 30
+  detectionRange: 10
   attackRange: 5
-  attackCooldown: 1.5
-  moveSpeed: 2
+  attackCooldown: 2
+  moveSpeed: 3
   attackDamage: 10
   deathEffect: {fileID: 7728366230342544413, guid: 212ef1a41838ce044a9ac54994866708,
     type: 3}
-  deathSound: {fileID: 8300000, guid: 1af7b6487e0fc3845942b1f1e736080e, type: 3}
+  deathSound: {fileID: 8300000, guid: c48d776c6dd73d048a03dd7433b56644, type: 3}
   maxHealth: 1
